@@ -69,3 +69,9 @@ nav > a:hover {
 .links > a:hover {
   color: gray;
 }
+
+@media screen and (max-width: 600px) {
+  .links {
+    flex-direction: column;
+  }
+}
