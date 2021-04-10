@@ -52,7 +52,7 @@ nav > a:hover:before {
 }
 
 .current-link:hover:before {
-  transform: scale(0)
+  transform: scale(0);
 }
 
 .greeting {
@@ -60,7 +60,6 @@ nav > a:hover:before {
   font-size: 50px;
   margin-bottom: 50px;
 }
-
 
 .short-description {
   font-size: 18px;
@@ -79,13 +78,16 @@ nav > a:hover:before {
 
 .links > a {
   margin: 10px;
-  color: #5b8abd;
+  color: #727575;
   text-decoration: none;
   font-size: 20px;
+  transition: all 0.3s ease;
 }
 
 .links > a:hover {
-  color: gray;
+  color: #5caaff;
+  border-bottom: 1px solid #5caaff;
+  margin-bottom: 2px;
 }
 
 @media screen and (max-width: 600px) {
