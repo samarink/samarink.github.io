@@ -64,7 +64,7 @@ nav > a:hover:before {
 .short-description {
   font-size: 18px;
   margin: 0 auto;
-  width: 80%;
+  width: 50%;
   padding: 24px;
   font-family: 'Roboto', sans-serif;
   border-bottom: 1px solid gray;
