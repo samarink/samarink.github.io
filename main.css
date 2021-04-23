@@ -23,7 +23,7 @@ nav > a {
   color: black;
   text-decoration: none;
   padding-bottom: 3px;
-  margin-right: 5px;
+  margin-right: 6px;
 
   /* required by animation: */
   position: relative;
@@ -68,16 +68,9 @@ nav > a:hover:before {
 
 .short-description {
   font-size: 18px;
-  margin: 0 auto;
-  width: 50%;
-  padding: 24px;
   font-family: 'Roboto', sans-serif;
   border-bottom: 1px solid gray;
   margin-bottom: 16px;
-}
-
-.short-description p {
-  margin: 8px 0;
 }
 
 .links {
