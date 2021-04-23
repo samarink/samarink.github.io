@@ -76,6 +76,10 @@ nav > a:hover:before {
   margin-bottom: 16px;
 }
 
+.short-description p {
+  margin: 8px 0;
+}
+
 .links {
   display: flex;
   justify-content: center;
