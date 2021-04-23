@@ -69,8 +69,13 @@ nav > a:hover:before {
 .short-description {
   font-size: 18px;
   font-family: 'Roboto', sans-serif;
-  border-bottom: 1px solid gray;
+}
+
+.short-description-underline {
+  border-bottom: 1px solid #727575;
   margin-bottom: 16px;
+  margin: 0 auto;
+  width: 70%;
 }
 
 .links {
