@@ -18,17 +18,19 @@
       href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&family=Roboto&family=Ubuntu&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/nav.css" />
+    <link rel="stylesheet" href="styles/home.css" />
     <title>Konstantin Samarin</title>
   </head>
   <body>
     <nav>
       <a class="current-link">home</a>
-      <a href="projects.html">projects</a>
-      <a href="cv.pdf">resume.pdf</a>
+      <a href="pages/projects.html">projects</a>
+      <a href="static/cv.pdf">resume.pdf</a>
     </nav>
     <main>
-      <div class="greeting">
+      <div class="hello-world">
         <p>hello -> world();</p>
       </div>
       <div class="short-description">
@@ -45,16 +47,26 @@
         </p>
       </div>
       <div class="short-description-underline"></div>
-      <div class="links">
-        <a href="https://t.me/kosamari" target="_blank"
+      <div class="contact-links">
+        <a
+          class="contact-links-item"
+          href="https://t.me/kosamari"
+          target="_blank"
           ><i class="fab fa-telegram"></i>@kosamari</a
         >
 
-        <a href="https://github.com/samarink" target="_blank"
+        <a
+          class="contact-links-item"
+          href="https://github.com/samarink"
+          target="_blank"
           ><i class="fab fa-github"></i>/samarink</a
         >
 
-        <a href="mailto:konstsamari@gmail.com" target="_blank">
+        <a
+          class="contact-links-item"
+          href="mailto:konstsamari@gmail.com"
+          target="_blank"
+        >
           <i class="far fa-envelope"></i>
           konstsamari@gmail.com</a
         >
